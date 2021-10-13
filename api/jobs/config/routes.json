@@ -8,6 +8,15 @@
         "policies": []
       }
     },
+
+    {
+      "method": "GET",
+      "path": "/jobs/me",
+      "handler": "jobs.me",
+      "config": {
+        "policies": []
+      }
+    },
     {
       "method": "GET",
       "path": "/jobs/count",
